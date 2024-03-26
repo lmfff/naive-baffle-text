@@ -6,8 +6,8 @@ function preload() {
   font = loadFont("Nexa-Heavy.ttf");
 }
 
-const buffSize = { x: 300, y: 150 };
-const canvasSize = { x: 800, y: 400 };
+const buffSize = { x: 300, y: 150 / 1.5};
+const canvasSize = { x: 800, y: 400 / 1.5};
 let MAXSHAPES = 10;
 const textHeight = 30;
 let phrase = "Naive Baffle Text";
