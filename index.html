@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baffle Text</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="inputText">Text</label>
+    <input type="text" name="inputText" style="width: 200px" id="inputText" />
+    <br />
+    <label for="checkAntialias">Antialias</label>
+    <input type="checkbox" name="checkAntialias" id="checkAntialias" />
+    <br />
+    <label for="shapesDensitySlider">Shapes Density</label>
+    <input type="range" name="shapesDensitySlider" id="shapesDensitySlider" />
+    <br />
+    <input type="button" value="New" onclick="draw()"/>
+  </body>
+</html>
