@@ -10,7 +10,7 @@ const buffSize = { x: 300, y: 150 };
 const canvasSize = { x: 800, y: 400 };
 let MAXSHAPES = 10;
 const textHeight = 30;
-let phrase = "Naive Baffle";
+let phrase = "Naive Baffle Text";
 /**
  * @type {HTMLInputElement}
  */
